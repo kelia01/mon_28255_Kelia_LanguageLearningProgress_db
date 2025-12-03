@@ -1,5 +1,3 @@
-
-
 # Language Learning Progress & Performance Tracking System
 ## Phase II: Business Process Modeling
 
@@ -31,14 +29,9 @@ The scope includes all steps from a learner completing a module, saving the scor
 
 ## 📊 Process Diagram
 
-# Screenshot kind of not in place cause it is long, so I took it in 3 parts
-<img width="1280" height="851" alt="image" src="https://github.com/user-attachments/assets/427a6dea-d343-47a2-8b7d-1e24bd32cede" />
-<img width="1285" height="862" alt="image" src="https://github.com/user-attachments/assets/9bd48e1e-6a39-4156-bc14-095bc5e372b1" />
-<img width="1284" height="486" alt="image" src="https://github.com/user-attachments/assets/05ed16d3-2a4c-4bfb-9bfa-f31179df9e6b" />
+<img width="541" height="941" alt="image" src="https://github.com/user-attachments/assets/1a1e6771-e325-4321-828b-f9d0f2f696b9" />
 
 *The diagram illustrates a swimlane BPMN model with two actors: Learner and System, showing the complete flow from enrollment to progress reporting with automated performance evaluation.*
-
----
 
 ## 🔑 Main Components
 
