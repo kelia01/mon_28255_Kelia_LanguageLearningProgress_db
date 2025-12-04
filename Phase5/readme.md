@@ -1,5 +1,8 @@
-## Creation scripts
+# Documentation for creation scripts
 
+## Test results and validation queries have their own files.
+
+## Creation scripts
 ### Learners table
 <img width="768" height="447" alt="image" src="https://github.com/user-attachments/assets/04dec50d-b2bb-439a-826d-2699295a78ec" />
 
