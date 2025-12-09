@@ -98,7 +98,7 @@ language-learning-tracker/
 - [Project Overview](./database/project_overview.md) - Detailed project description and goals
 - [Architecture Modeling](./documentation/architecture_modeling.md) - System design and ER diagrams
 - [Data Dictionary](./documentation/data_dictionary.md) - Complete table and column specifications
-- [BI Considerations & Normalization](./documentation/BI_consideration_and_normaliastion) - Business intelligence and database normalization
+- [BI Considerations & Normalization](./documentation/BI_consideration_and_normaliastion.md) - Business intelligence and database normalization
 
 ### Database Scripts
 - **Tables Creation** - `./database/scripts/` (create_tables.sql)
