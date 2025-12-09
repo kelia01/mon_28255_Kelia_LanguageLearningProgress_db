@@ -1,4 +1,3 @@
-# mon_28255_Kelia_LanguageLearningProgress_db
 # Language Learning Progress Tracking System
 
 **Student Name:** Iradukunda Kelia  
@@ -62,22 +61,8 @@ Language training programs often struggle with inconsistent grading, manual scor
    sqlplus username/kelia@database
    
    -- Run the database setup scripts
-   @database/scripts/create_tables.sql
-   @database/scripts/create_functions.sql
-   @database/scripts/create_procedures.sql
-   @database/scripts/create_triggers.sql
+   @database/scripts/create_sequence_scripts.sql
    ```
-
-3. **Load Sample Data (Optional)**
-   ```sql
-   @database/scripts/insert_sample_data.sql
-   ```
-
-4. **Test the System**
-   ```sql
-   @test_results/run_tests.sql
-   ```
-
 ---
 
 ## 📁 Project Structure
@@ -138,8 +123,6 @@ language-learning-tracker/
 - Maintain historical performance records
 
 ### 2. Assessment Tracking
-- Record assessment details and types
-- Link assessments to specific courses and modules
 - Track submission dates and status
 
 ### 3. Score Management
@@ -179,10 +162,9 @@ Run all tests:
 
 **Main Tables:**
 - `LEARNERS` - Learner profiles and personal information
-- `COURSES` - Language courses offered
-- `ASSESSMENTS` - Assessment details and types
-- `SCORES` - Individual assessment scores
-- `ENROLLMENTS` - Learner-course relationships
+- `LANGUAGES` - Language courses offered
+- `PROGRESS_RECORDS` - Individual assessment scores
+- `LEARNING_MODULES` - Learner-course relationships
 
 **Key Functions:**
 - `calculate_avg_score(learner_id)` - Computes learner's average score
